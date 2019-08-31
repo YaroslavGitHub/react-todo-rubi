@@ -87,6 +87,7 @@
     "url": "git+ssh://git@github.com/jprichardson/node-jsonfile.git"
   },
   "scripts": {
+    "start": "node index.js",
     "lint": "standard",
     "test": "npm run lint && npm run unit",
     "unit": "mocha"
